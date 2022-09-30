@@ -5,4 +5,4 @@ const port = 3001;
 
 const server = http.createServer(app);
 
-server.listen(process.env.PORT | port);
+server.listen(process.env.PORT || port);
