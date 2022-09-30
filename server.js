@@ -3,8 +3,7 @@ const app = require('./index')
 
 const port = 3001;
 
-const server = http.createServer(app);
-
-app.listen(process.env.PORT || port, () => {
-    console.log(`server is running in the port ${port}`)
-});
+const server = app.listen(process.env.PORT || 5000, () => {
+    const port = server.address().port;
+    console.log(`Express is working on port ${port}`);
+  });
