@@ -1,10 +1,10 @@
-const mysql = require('mysql')
+const mysql = require('mysql2')
 
 var connection = mysql.createConnection({
-    port: 3306,
-    host: 'localhost',
+    port: 6117,
+    host: 'containers-us-west-68.railway.app',
     user: "root",
-    password: "root",
+    password: "thSS05oEHvpJ666ufpQA",
     database: "cts"
 })
 
