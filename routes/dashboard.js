@@ -18,7 +18,7 @@ router.get('/events/', (request, response, next) => {
 })
 
 router.get('/RMD/', (request, response, next) => {
-    get_event = `select * from RMD;`
+    get_event = `select * from rmd;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
