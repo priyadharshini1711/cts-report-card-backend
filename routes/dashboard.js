@@ -18,7 +18,7 @@ router.get('/events/', (request, response, next) => {
 })
 
 router.get('/RMD/', (request, response, next) => {
-    get_event = `select * from RMD;`
+    get_event = `select * from rmd;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -28,7 +28,7 @@ router.get('/RMD/', (request, response, next) => {
 })
 
 router.get('/SCSVMV/', (request, response, next) => {
-    get_event = `select * from SCSVMV;`
+    get_event = `select * from scsvmv;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -38,7 +38,7 @@ router.get('/SCSVMV/', (request, response, next) => {
 })
 
 router.get('/VEC/', (request, response, next) => {
-    get_event = `select * from VEC;`
+    get_event = `select * from vec;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -48,7 +48,7 @@ router.get('/VEC/', (request, response, next) => {
 })
 
 router.get('/RMKCET/', (request, response, next) => {
-    get_event = `select * from RMKCET;`
+    get_event = `select * from rmkcet;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -58,7 +58,7 @@ router.get('/RMKCET/', (request, response, next) => {
 })
 
 router.get('/SJIT/', (request, response, next) => {
-    get_event = `select * from SJIT;`
+    get_event = `select * from sjit;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -68,7 +68,7 @@ router.get('/SJIT/', (request, response, next) => {
 })
 
 router.get('/SATHYABAMA/', (request, response, next) => {
-    get_event = `select * from SATHYABAMA;`
+    get_event = `select * from sathyabama;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -78,7 +78,7 @@ router.get('/SATHYABAMA/', (request, response, next) => {
 })
 
 router.get('/RMKEC/', (request, response, next) => {
-    get_event = `select * from RMKEC;`
+    get_event = `select * from rmkec;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -88,7 +88,7 @@ router.get('/RMKEC/', (request, response, next) => {
 })
 
 router.get('/SJCE/', (request, response, next) => {
-    get_event = `select * from SJCE;`
+    get_event = `select * from sjce;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -98,7 +98,7 @@ router.get('/SJCE/', (request, response, next) => {
 })
 
 router.get('/VIT/', (request, response, next) => {
-    get_event = `select * from VIT;`
+    get_event = `select * from vit;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -108,7 +108,7 @@ router.get('/VIT/', (request, response, next) => {
 })
 
 router.get('/MSEC/', (request, response, next) => {
-    get_event = `select * from MSEC;`
+    get_event = `select * from msec;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -118,7 +118,7 @@ router.get('/MSEC/', (request, response, next) => {
 })
 
 router.get('/SRM/', (request, response, next) => {
-    get_event = `select * from SRM;`
+    get_event = `select * from srm;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -128,7 +128,7 @@ router.get('/SRM/', (request, response, next) => {
 })
 
 router.get('/SVCE/', (request, response, next) => {
-    get_event = `select * from SVCE;`
+    get_event = `select * from svce;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -138,7 +138,7 @@ router.get('/SVCE/', (request, response, next) => {
 })
 
 router.get('/SSN/', (request, response, next) => {
-    get_event = `select * from SSN;`
+    get_event = `select * from ssn;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
@@ -148,7 +148,7 @@ router.get('/SSN/', (request, response, next) => {
 })
 
 router.get('/VIT_UNIV/', (request, response, next) => {
-    get_event = `select * from VIT_UNIV;`
+    get_event = `select * from vit_univ;`
     connection.query(get_event, function (err, result) {
         if (!err)
             return response.status(200).json(result)
